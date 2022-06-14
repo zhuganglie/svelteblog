@@ -1,1 +1,6 @@
-declare module "svelte-click-outside"
+// <reference types="@sveltejs/kit" / >
+declare module 'svelte-paginate'
+
+
+
+

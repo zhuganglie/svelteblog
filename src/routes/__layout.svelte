@@ -1,9 +1,5 @@
-<script context="module">
-    import { page } from '$app/stores';
-    export const prerender = true;
-    </script>
-
 <script lang="ts">
+import { page } from '$app/stores';
 import '$lib/styles/global.css'
 import 'uno.css'
 import ClickOutside from "svelte-click-outside"
@@ -11,7 +7,7 @@ import Taiji from '$lib/components/taiji.svelte'
 
     const routes = [
     {name: "Home", href: "/", icon : "i-tabler-home"},
-    {name: "Blog", href: "/blog", icon: "i-tabler-writing"},
+    {name: "Notes", href: "/notes", icon: "i-tabler-writing"},
     {name: "About", href:"/about", icon:"i-tabler-info-circle"},
 ]
 let open = false;

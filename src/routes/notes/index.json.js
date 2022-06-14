@@ -1,9 +1,8 @@
-// @ts-nocheck
-import { posts } from './_posts'
+import { notes } from './_notes'
 
 export async function get() {
-  const sortedPosts = Object.keys(posts).map(key => posts[key])
-  sortedPosts.sort((b, a) => {
+  const sortedNotes = Object.keys(notes).map(key => notes[key])
+  sortedNotes.sort((b, a) => {
     const da = new Date(a.date).getTime()
     const db = new Date(b.date).getTime()
     if (da < db) return -1
@@ -12,6 +11,6 @@ export async function get() {
   })
 
   return {
-    body: { posts: sortedPosts },
+    body: { notes: sortedNotes },
   }
 }
