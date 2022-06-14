@@ -3,7 +3,7 @@
 </script>
 
 <script>
-	export let src="/images/bg.jpeg"
+	export let src="/images/lanke.webp"
 	export let alt="lanke"
 </script>
 
@@ -14,7 +14,7 @@
 
 <section class="grid h-full w-full">
 	<div class="self-center justify-self-center">
-	<img {src} {alt} width="1500" loading="lazy" class="max-w-full h-48 rounded object-fill mb-12"/>
+	<img {src} {alt} width="900" loading="lazy" class="max-w-full h-auto rounded object-fill mb-12"/>
 		<div class="md:mt-24"></div>
 	<div class="one text-3xl text-center">
 		<h1 class="text-3xl md:ml-12 mb-12">道德经</h1>
