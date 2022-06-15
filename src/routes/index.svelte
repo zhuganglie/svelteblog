@@ -23,11 +23,13 @@
 				<p class="md:ml-4">名可名非常名</p>	
 				<p class="md:ml-4">无名天地之始</p>	
 				<p class="md:ml-4">有名万物之母</p>	
-				<p class="md:ml-4">故常无欲以观其妙</p>	
+				<p class="md:ml-4">故</p>
+				<p class="md:ml-4">常无欲以观其妙</p>	
 				<p class="md:ml-4">常有欲以观其徼</p>	
 				<p class="md:ml-4">此两者同出而异名</p>	
 				<p class="md:ml-4">同谓之玄</p>	
-				<p class="md:ml-4">玄之又玄众妙之门</p>
+				<p class="md:ml-4">玄之又玄</p>
+				<p class="md:ml-4">	众妙之门</p>
 				 </div> 
 </div>
 	</section>
