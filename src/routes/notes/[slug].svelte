@@ -26,7 +26,7 @@
 </svelte:head>
 
   
-  <div class="prose prose-sm sm:prose page max-w-none sm:max-w-none">
+  <div class="xl:w-3/4 mx-auto">
     <div class="py-4 sm:py-6 text-center">
       <div class="font-bold text-2xl sm:text-3xl mb-4">{title}</div>
       <div class="text-sm flex flax-wrap justify-center items-center space-x-1"><div class="i-mdi-calendar" /><span>{dateDisplay}</span></div>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <hr />
-    {@html html}
+    <main class="">{@html html}</main> 
     <hr />
     <a href="/notes/" class="bg-zinc-700 text-yellow-500 hover:text-zinc-100 rounded px-2.5 py-0.5">&larr; 返回列表</a>
   <div class="mt-6">
