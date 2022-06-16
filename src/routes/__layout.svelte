@@ -62,4 +62,7 @@ open = !open;}
  transform: rotate(-180deg);
 
 }
+:global(ul) {
+  list-style-position: inside;
+}
 </style>
