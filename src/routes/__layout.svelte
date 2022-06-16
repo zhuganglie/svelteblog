@@ -43,7 +43,7 @@ open = !open;}
 <!--/div-->
 </header>
 
-<main class="my-8 px-4 md:w-2/3 mx-auto w-full min-h-screen">
+<main class="my-8 px-4 md:w-2/3 mx-auto w-full min-h-screen leading-normal tracking-normal">
 <slot />
 </main>
 
