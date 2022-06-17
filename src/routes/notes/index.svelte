@@ -28,7 +28,7 @@
 </svelte:head>
   
   
-    <h1 class="text-3xl">笔　记</h1>
+    <h1 class="text-3xl">故 事 会</h1>
     <hr />
 
     <input
@@ -45,7 +45,7 @@
       {#if !note.draft}
     <div class="bg-zinc-700/60 gap-2 p-4 rounded shadow-lg w-full text-center">
       <div class="text-sm text-left  underline underline-offset-3 px-2 py-0.5 mb-3 min-w-max">{formatDate(note.date)}</div>
-        <a sveltekit:prefetch href={`/notes/${note.slug}`} class="text-md text-yellow-500 hover:text-yellow-300 my-8 font-semibold">{note.title}</a>
+        <a sveltekit:prefetch href={`/notes/${note.slug}`} class="text-lg md:text-xl text-yellow-500 hover:text-yellow-300 my-8 font-semibold">{note.title}</a>
         <div class="flex flex-wrap justify-start ml-4">
           {#each note.categories as category}
             <a sveltekit:prefetch class="flex items-center justify-center py-0.5 px-2.5 mr-1.5 my-1 text-sm bg-zinc-800 rounded text-zinc-300 hover:text-zinc-100" href="/categories/{category}"

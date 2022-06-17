@@ -4,11 +4,12 @@ import '$lib/styles/global.css'
 import 'uno.css'
 import ClickOutside from "svelte-click-outside"
 import Taiji from '$lib/components/taiji.svelte'
+import Social from '$lib/components/social.svelte'
 
     const routes = [
-    {name: "Home", href: "/", icon : "i-tabler-home"},
-    {name: "Notes", href: "/notes", icon: "i-tabler-writing"},
-    {name: "About", href:"/about", icon:"i-tabler-info-circle"},
+    {name: "home", href: "/", icon : "i-tabler-home"},
+    {name: "stories", href: "/notes", icon: "i-tabler-writing"},
+    {name: "about", href:"/about", icon:"i-tabler-info-circle"},
 ]
 let open = false;
 const toggleMenu = () => {
@@ -23,7 +24,7 @@ open = !open;}
 <div class="">
 <Taiji />
 </div>
-<span class="text-xl lg:text-4xl font-semibold">道 之 动</span>
+<span class="text-2xl lg:text-4xl font-semibold">道 之 动</span>
 </div>
 
 <div class="m-0 p-0 w-0 md:w-1/2"></div>
@@ -47,8 +48,8 @@ open = !open;}
 <slot />
 </main>
 
-<footer class="bottom-0 sticky text-center p-4 w-full">
-<span>&copy; {new Date().getFullYear()}</span>
+<footer class="shadown bottom-0 sticky text-center p-4 w-full flex items-center justify-center gap-3">
+<span>&copy; {new Date().getFullYear()}</span> | <Social />
 </footer>
 </div>
 
