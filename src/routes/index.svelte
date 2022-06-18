@@ -18,7 +18,7 @@
 		<div class="md:mt-24"></div>
 	<div class="one text-3xl text-center">
 		<h1 class="text-3xl md:ml-12 mb-12">道德经</h1>
-		<p class="font-bold  font-sans  text-base md:ml-12 mb-12">【春秋】李耳 </p>
+		<p class="font-bold  font-sans  text-base md:ml-12 mb-12">春秋 &middot; 李耳 </p>
 				<p class="md:ml-4">道可道非常道</p>
 				<p class="md:ml-4">名可名非常名</p>	
 				<p class="md:ml-4">无名天地之始</p>	
