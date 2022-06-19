@@ -28,7 +28,7 @@
 </svelte:head>
   
   
-    <h1 class="text-3xl">故 事 会</h1>
+    <h1 class="text-3xl">笔 记</h1>
     <hr />
 
     <input
