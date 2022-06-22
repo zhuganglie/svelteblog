@@ -59,7 +59,7 @@ open = !open;}
   }
 .active {
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 3.5px;
   text-decoration-thickness: 2px;
 }
 .open .icon {
