@@ -12,8 +12,8 @@
 </svelte:head>
 
 
-<section class="grid h-full w-full">
-	<div class="self-center justify-self-center">
+<section class="grid justify-center content-center h-full w-full">
+	
 	<img {src} {alt} width="900" loading="lazy" class="max-w-full h-auto rounded object-fill mb-12"/>
 		<div class="md:mt-24"></div>
 	<div class="one text-3xl text-center">
@@ -31,7 +31,6 @@
 				<p class="md:ml-4">玄之又玄</p>
 				<p class="md:ml-4">	众妙之门</p>
 				 </div> 
-</div>
 	</section>
 
 		<style>  
