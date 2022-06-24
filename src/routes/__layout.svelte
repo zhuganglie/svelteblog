@@ -28,7 +28,7 @@ open = !open;}
 </div>
 
 <div class="m-0 p-0 w-0 md:w-1/2"></div>
-<nav class=" hidden md:flex md:items-center md:justify-center md:my-auto mt-12 md:gap-x-8 mr-8" class:hidden={!open}>
+<nav class=" hidden md:flex md:items-center md:justify-center md:my-auto mt-12 md:gap-x-8 mr-8 md:min-w-max" class:hidden={!open}>
 {#each routes as route}
 <a sveltekit:prefetch href={route.href} class="my-10 font-semibold md:text-center text-zinc-100 no-underline uppercase flex items-center space-x-2 " ><div class="{route.icon} text-xl"/><span class="route" class:active="{$page.url.pathname.includes(route.href + "/" ) || $page.url.pathname === route.href}">{route.name}</span></a>
 {/each}
