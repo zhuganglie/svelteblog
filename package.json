@@ -2,7 +2,7 @@
   "name": "yzc.vercel.app",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "vite dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -30,7 +30,8 @@
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
-    "unocss": "^0.43.2"
+    "unocss": "^0.43.2",
+    "vite": "^2.9.13"
   },
   "type": "module",
   "dependencies": {
