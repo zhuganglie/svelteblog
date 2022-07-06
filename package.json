@@ -11,13 +11,13 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.1.24",
+    "@iconify-json/mdi": "^1.1.25",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@types/cookie": "^0.5.1",
     "@types/marked": "^4.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.30.3",
-    "@typescript-eslint/parser": "^5.30.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
@@ -30,14 +30,14 @@
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
-    "unocss": "^0.43.0"
+    "unocss": "^0.43.2"
   },
   "type": "module",
   "dependencies": {
     "@iconify-json/tabler": "^1.1.18",
     "@lukeed/uuid": "^2.0.0",
     "@splidejs/svelte-splide": "^0.2.5",
-    "@unocss/reset": "^0.43.0",
+    "@unocss/reset": "^0.43.2",
     "cookie": "^0.5.0",
     "dotenv": "^16.0.1",
     "remark-emoji": "^3.0.2",
