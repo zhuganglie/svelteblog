@@ -5,7 +5,8 @@ const modules = import.meta.globEager('/notes/*.{md,svx}')
 
 export const notes = Object.entries(modules).map(
   ([filepath, module]) => {
-    const slug = basename(dirname(filepath))
+    //const slug = basename(dirname(filepath))
+    const slug = filepath.slice(7, -3)
     const { metadata } = module
     const { html } = module.default.render()
     return {
