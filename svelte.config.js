@@ -12,7 +12,10 @@ const config = {
 	preprocess: [preprocess(), mdsvex(mdsvexConfig)],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			edge: false,
+			split: true
+		})
 	}
 };
 
