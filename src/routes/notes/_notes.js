@@ -1,6 +1,7 @@
 import { basename, dirname } from 'path'
 
-const modules = import.meta.globEager('/notes/**/*.{md,svx}')
+//const modules = import.meta.globEager('/notes/**/*.{md,svx}')
+const modules = import.meta.globEager('/notes/*.{md,svx}')
 
 export const notes = Object.entries(modules).map(
   ([filepath, module]) => {
