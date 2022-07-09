@@ -17,7 +17,7 @@ open = !open;}
 </script>
 
 <div class="w-screen h-screen">
-<header class="z-999 top-0 sticky w-full px-4 md:px-24 flex items-start justify-between bg-zinc-800 shadow-lg">
+<header class="z-999 top-0 sticky w-full py-3 px-4 md:py-0 md:px-24 flex items-start justify-between bg-zinc-800 shadow-lg">
 
 
 <div class="flex items-center justify-between gap-x-5 min-w-max md:my-auto">
