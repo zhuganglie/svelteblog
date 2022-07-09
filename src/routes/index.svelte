@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>道之动</title>
 </svelte:head>
 
 
