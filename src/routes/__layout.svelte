@@ -17,7 +17,7 @@ open = !open;}
 </script>
 
 <div class="w-screen h-screen">
-<header class="z-999 top-0 sticky w-full p-4 md:px-24 flex items-start justify-between bg-zinc-800 shadow-lg">
+<header class="z-999 top-0 sticky w-full px-4 md:px-24 flex items-start justify-between bg-zinc-800 shadow-lg">
 
 
 <div class="flex items-center justify-between gap-x-5 min-w-max md:my-auto">
@@ -48,7 +48,7 @@ open = !open;}
 <slot />
 </main>
 
-<footer class="shadown bottom-0 sticky text-center p-4 w-full flex items-center justify-center gap-3">
+<footer class="bg-zinc-800 shadow-inner bottom-0 sticky text-center p-2 w-full h-12 flex items-center justify-center gap-3">
 <span>&copy; {new Date().getFullYear()}</span> | <Social />
 </footer>
 </div>

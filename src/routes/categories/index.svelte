@@ -38,7 +38,7 @@ export const load = async ({ fetch }) => {
 
 
 <div class="">
-  <h1 class="text-3xl">故事分类</h1>
+  <h1 class="text-3xl">笔记分类</h1>
   <hr />
   
   <ul>
